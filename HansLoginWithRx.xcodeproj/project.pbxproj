@@ -1,0 +1,836 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52D73F395E75C5BBFC5AB784 /* Pods_HansLoginWithRx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 057B46011E43CEF1CB230291 /* Pods_HansLoginWithRx.framework */; };
+		89EC958DF052C6888C9F12CB /* Pods_HansLoginWithRxUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F078CD782A64908582F123 /* Pods_HansLoginWithRxUITests.framework */; };
+		EC31C98920AC6F7C0037C8D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31C98820AC6F7C0037C8D6 /* AppDelegate.swift */; };
+		EC31C98B20AC6F7C0037C8D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31C98A20AC6F7C0037C8D6 /* ViewController.swift */; };
+		EC31C98E20AC6F7C0037C8D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC31C98C20AC6F7C0037C8D6 /* Main.storyboard */; };
+		EC31C99020AC6F7D0037C8D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC31C98F20AC6F7D0037C8D6 /* Assets.xcassets */; };
+		EC31C99320AC6F7D0037C8D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC31C99120AC6F7D0037C8D6 /* LaunchScreen.storyboard */; };
+		EC31C99E20AC6F7E0037C8D6 /* HansLoginWithRxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31C99D20AC6F7E0037C8D6 /* HansLoginWithRxTests.swift */; };
+		EC31C9A920AC6F7E0037C8D6 /* HansLoginWithRxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31C9A820AC6F7E0037C8D6 /* HansLoginWithRxUITests.swift */; };
+		EC31C9C020AC70CF0037C8D6 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31C9B620AC70CD0037C8D6 /* ContainerViewController.swift */; };
+		EC31C9C120AC70CF0037C8D6 /* ContainerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31C9B720AC70CD0037C8D6 /* ContainerViewModel.swift */; };
+		EC31C9C220AC70CF0037C8D6 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31C9B820AC70CD0037C8D6 /* LoginViewModel.swift */; };
+		EC31C9C320AC70CF0037C8D6 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31C9B920AC70CE0037C8D6 /* Protocol.swift */; };
+		EC31C9C420AC70CF0037C8D6 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31C9BA20AC70CE0037C8D6 /* RegisterViewModel.swift */; };
+		EC31C9C520AC70CF0037C8D6 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31C9BB20AC70CE0037C8D6 /* Service.swift */; };
+		EC31C9C620AC70CF0037C8D6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31C9BC20AC70CE0037C8D6 /* LoginViewController.swift */; };
+		EC31C9C720AC70CF0037C8D6 /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31C9BD20AC70CE0037C8D6 /* Hero.swift */; };
+		EC31C9C820AC70CF0037C8D6 /* heros.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC31C9BE20AC70CF0037C8D6 /* heros.plist */; };
+		EC31C9C920AC70CF0037C8D6 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC31C9BF20AC70CF0037C8D6 /* RegisterViewController.swift */; };
+		FA89F0D78EC0FFE3A74E4471 /* Pods_HansLoginWithRxTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82A921C706A472C25326467E /* Pods_HansLoginWithRxTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC31C99A20AC6F7D0037C8D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC31C97D20AC6F7C0037C8D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC31C98420AC6F7C0037C8D6;
+			remoteInfo = HansLoginWithRx;
+		};
+		EC31C9A520AC6F7E0037C8D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC31C97D20AC6F7C0037C8D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC31C98420AC6F7C0037C8D6;
+			remoteInfo = HansLoginWithRx;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03F078CD782A64908582F123 /* Pods_HansLoginWithRxUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HansLoginWithRxUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		057B46011E43CEF1CB230291 /* Pods_HansLoginWithRx.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HansLoginWithRx.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E1309D94550641BDE87FF83 /* Pods-HansLoginWithRxUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HansLoginWithRxUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HansLoginWithRxUITests/Pods-HansLoginWithRxUITests.release.xcconfig"; sourceTree = "<group>"; };
+		37789756EA8EDD4A2CFB3A8C /* Pods-HansLoginWithRxTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HansLoginWithRxTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HansLoginWithRxTests/Pods-HansLoginWithRxTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7D087E90D120F3B3FB9A8523 /* Pods-HansLoginWithRxTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HansLoginWithRxTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HansLoginWithRxTests/Pods-HansLoginWithRxTests.release.xcconfig"; sourceTree = "<group>"; };
+		82A921C706A472C25326467E /* Pods_HansLoginWithRxTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HansLoginWithRxTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E35FD7AFEF90F75C1EBC4C8 /* Pods-HansLoginWithRxUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HansLoginWithRxUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HansLoginWithRxUITests/Pods-HansLoginWithRxUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9E3BD7361C9B7FF5407DA928 /* Pods-HansLoginWithRx.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HansLoginWithRx.release.xcconfig"; path = "Pods/Target Support Files/Pods-HansLoginWithRx/Pods-HansLoginWithRx.release.xcconfig"; sourceTree = "<group>"; };
+		B78B980D9A8375CA38645484 /* Pods-HansLoginWithRx.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HansLoginWithRx.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HansLoginWithRx/Pods-HansLoginWithRx.debug.xcconfig"; sourceTree = "<group>"; };
+		EC31C98520AC6F7C0037C8D6 /* HansLoginWithRx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HansLoginWithRx.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC31C98820AC6F7C0037C8D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC31C98A20AC6F7C0037C8D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC31C98D20AC6F7C0037C8D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC31C98F20AC6F7D0037C8D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC31C99220AC6F7D0037C8D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC31C99420AC6F7D0037C8D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC31C99920AC6F7D0037C8D6 /* HansLoginWithRxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HansLoginWithRxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC31C99D20AC6F7E0037C8D6 /* HansLoginWithRxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HansLoginWithRxTests.swift; sourceTree = "<group>"; };
+		EC31C99F20AC6F7E0037C8D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC31C9A420AC6F7E0037C8D6 /* HansLoginWithRxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HansLoginWithRxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC31C9A820AC6F7E0037C8D6 /* HansLoginWithRxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HansLoginWithRxUITests.swift; sourceTree = "<group>"; };
+		EC31C9AA20AC6F7E0037C8D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC31C9B620AC70CD0037C8D6 /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		EC31C9B720AC70CD0037C8D6 /* ContainerViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewModel.swift; sourceTree = "<group>"; };
+		EC31C9B820AC70CD0037C8D6 /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		EC31C9B920AC70CE0037C8D6 /* Protocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
+		EC31C9BA20AC70CE0037C8D6 /* RegisterViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		EC31C9BB20AC70CE0037C8D6 /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		EC31C9BC20AC70CE0037C8D6 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EC31C9BD20AC70CE0037C8D6 /* Hero.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
+		EC31C9BE20AC70CF0037C8D6 /* heros.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = heros.plist; sourceTree = "<group>"; };
+		EC31C9BF20AC70CF0037C8D6 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC31C98220AC6F7C0037C8D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D73F395E75C5BBFC5AB784 /* Pods_HansLoginWithRx.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC31C99620AC6F7D0037C8D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA89F0D78EC0FFE3A74E4471 /* Pods_HansLoginWithRxTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC31C9A120AC6F7E0037C8D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89EC958DF052C6888C9F12CB /* Pods_HansLoginWithRxUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A8D880FACAF0733CE7C0C10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				057B46011E43CEF1CB230291 /* Pods_HansLoginWithRx.framework */,
+				82A921C706A472C25326467E /* Pods_HansLoginWithRxTests.framework */,
+				03F078CD782A64908582F123 /* Pods_HansLoginWithRxUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB12FF45053DDE3F84372909 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B78B980D9A8375CA38645484 /* Pods-HansLoginWithRx.debug.xcconfig */,
+				9E3BD7361C9B7FF5407DA928 /* Pods-HansLoginWithRx.release.xcconfig */,
+				37789756EA8EDD4A2CFB3A8C /* Pods-HansLoginWithRxTests.debug.xcconfig */,
+				7D087E90D120F3B3FB9A8523 /* Pods-HansLoginWithRxTests.release.xcconfig */,
+				9E35FD7AFEF90F75C1EBC4C8 /* Pods-HansLoginWithRxUITests.debug.xcconfig */,
+				2E1309D94550641BDE87FF83 /* Pods-HansLoginWithRxUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EC31C97C20AC6F7C0037C8D6 = {
+			isa = PBXGroup;
+			children = (
+				EC31C98720AC6F7C0037C8D6 /* HansLoginWithRx */,
+				EC31C99C20AC6F7E0037C8D6 /* HansLoginWithRxTests */,
+				EC31C9A720AC6F7E0037C8D6 /* HansLoginWithRxUITests */,
+				EC31C98620AC6F7C0037C8D6 /* Products */,
+				EB12FF45053DDE3F84372909 /* Pods */,
+				5A8D880FACAF0733CE7C0C10 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EC31C98620AC6F7C0037C8D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC31C98520AC6F7C0037C8D6 /* HansLoginWithRx.app */,
+				EC31C99920AC6F7D0037C8D6 /* HansLoginWithRxTests.xctest */,
+				EC31C9A420AC6F7E0037C8D6 /* HansLoginWithRxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC31C98720AC6F7C0037C8D6 /* HansLoginWithRx */ = {
+			isa = PBXGroup;
+			children = (
+				EC31C9B620AC70CD0037C8D6 /* ContainerViewController.swift */,
+				EC31C9B720AC70CD0037C8D6 /* ContainerViewModel.swift */,
+				EC31C9BD20AC70CE0037C8D6 /* Hero.swift */,
+				EC31C9BE20AC70CF0037C8D6 /* heros.plist */,
+				EC31C9BC20AC70CE0037C8D6 /* LoginViewController.swift */,
+				EC31C9B820AC70CD0037C8D6 /* LoginViewModel.swift */,
+				EC31C9B920AC70CE0037C8D6 /* Protocol.swift */,
+				EC31C9BF20AC70CF0037C8D6 /* RegisterViewController.swift */,
+				EC31C9BA20AC70CE0037C8D6 /* RegisterViewModel.swift */,
+				EC31C9BB20AC70CE0037C8D6 /* Service.swift */,
+				EC31C98820AC6F7C0037C8D6 /* AppDelegate.swift */,
+				EC31C98A20AC6F7C0037C8D6 /* ViewController.swift */,
+				EC31C98C20AC6F7C0037C8D6 /* Main.storyboard */,
+				EC31C98F20AC6F7D0037C8D6 /* Assets.xcassets */,
+				EC31C99120AC6F7D0037C8D6 /* LaunchScreen.storyboard */,
+				EC31C99420AC6F7D0037C8D6 /* Info.plist */,
+			);
+			path = HansLoginWithRx;
+			sourceTree = "<group>";
+		};
+		EC31C99C20AC6F7E0037C8D6 /* HansLoginWithRxTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC31C99D20AC6F7E0037C8D6 /* HansLoginWithRxTests.swift */,
+				EC31C99F20AC6F7E0037C8D6 /* Info.plist */,
+			);
+			path = HansLoginWithRxTests;
+			sourceTree = "<group>";
+		};
+		EC31C9A720AC6F7E0037C8D6 /* HansLoginWithRxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC31C9A820AC6F7E0037C8D6 /* HansLoginWithRxUITests.swift */,
+				EC31C9AA20AC6F7E0037C8D6 /* Info.plist */,
+			);
+			path = HansLoginWithRxUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC31C98420AC6F7C0037C8D6 /* HansLoginWithRx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC31C9AD20AC6F7E0037C8D6 /* Build configuration list for PBXNativeTarget "HansLoginWithRx" */;
+			buildPhases = (
+				7885CD6D4A5AE431B22831A0 /* [CP] Check Pods Manifest.lock */,
+				EC31C98120AC6F7C0037C8D6 /* Sources */,
+				EC31C98220AC6F7C0037C8D6 /* Frameworks */,
+				EC31C98320AC6F7C0037C8D6 /* Resources */,
+				30302A205E114095669AFFA6 /* [CP] Embed Pods Frameworks */,
+				91C3F34BA5B01881BE009CB3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HansLoginWithRx;
+			productName = HansLoginWithRx;
+			productReference = EC31C98520AC6F7C0037C8D6 /* HansLoginWithRx.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC31C99820AC6F7D0037C8D6 /* HansLoginWithRxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC31C9B020AC6F7E0037C8D6 /* Build configuration list for PBXNativeTarget "HansLoginWithRxTests" */;
+			buildPhases = (
+				176A2969EAA83ECDAEDCE19A /* [CP] Check Pods Manifest.lock */,
+				EC31C99520AC6F7D0037C8D6 /* Sources */,
+				EC31C99620AC6F7D0037C8D6 /* Frameworks */,
+				EC31C99720AC6F7D0037C8D6 /* Resources */,
+				C07951C7017DDF1DCA535C2B /* [CP] Embed Pods Frameworks */,
+				AB69D2FCF6ADD530E2345B45 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC31C99B20AC6F7D0037C8D6 /* PBXTargetDependency */,
+			);
+			name = HansLoginWithRxTests;
+			productName = HansLoginWithRxTests;
+			productReference = EC31C99920AC6F7D0037C8D6 /* HansLoginWithRxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC31C9A320AC6F7E0037C8D6 /* HansLoginWithRxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC31C9B320AC6F7E0037C8D6 /* Build configuration list for PBXNativeTarget "HansLoginWithRxUITests" */;
+			buildPhases = (
+				8FAA55FA29F6ED83E904E561 /* [CP] Check Pods Manifest.lock */,
+				EC31C9A020AC6F7E0037C8D6 /* Sources */,
+				EC31C9A120AC6F7E0037C8D6 /* Frameworks */,
+				EC31C9A220AC6F7E0037C8D6 /* Resources */,
+				F80772C198E0BCD9C9E60E4B /* [CP] Embed Pods Frameworks */,
+				01C4CB2D2406CFCEF3797718 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC31C9A620AC6F7E0037C8D6 /* PBXTargetDependency */,
+			);
+			name = HansLoginWithRxUITests;
+			productName = HansLoginWithRxUITests;
+			productReference = EC31C9A420AC6F7E0037C8D6 /* HansLoginWithRxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC31C97D20AC6F7C0037C8D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = huangjianwu;
+				TargetAttributes = {
+					EC31C98420AC6F7C0037C8D6 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					EC31C99820AC6F7D0037C8D6 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = EC31C98420AC6F7C0037C8D6;
+					};
+					EC31C9A320AC6F7E0037C8D6 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = EC31C98420AC6F7C0037C8D6;
+					};
+				};
+			};
+			buildConfigurationList = EC31C98020AC6F7C0037C8D6 /* Build configuration list for PBXProject "HansLoginWithRx" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC31C97C20AC6F7C0037C8D6;
+			productRefGroup = EC31C98620AC6F7C0037C8D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC31C98420AC6F7C0037C8D6 /* HansLoginWithRx */,
+				EC31C99820AC6F7D0037C8D6 /* HansLoginWithRxTests */,
+				EC31C9A320AC6F7E0037C8D6 /* HansLoginWithRxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC31C98320AC6F7C0037C8D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC31C99320AC6F7D0037C8D6 /* LaunchScreen.storyboard in Resources */,
+				EC31C99020AC6F7D0037C8D6 /* Assets.xcassets in Resources */,
+				EC31C9C820AC70CF0037C8D6 /* heros.plist in Resources */,
+				EC31C98E20AC6F7C0037C8D6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC31C99720AC6F7D0037C8D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC31C9A220AC6F7E0037C8D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01C4CB2D2406CFCEF3797718 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HansLoginWithRxUITests/Pods-HansLoginWithRxUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		176A2969EAA83ECDAEDCE19A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HansLoginWithRxTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		30302A205E114095669AFFA6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HansLoginWithRx/Pods-HansLoginWithRx-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HansLoginWithRx/Pods-HansLoginWithRx-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7885CD6D4A5AE431B22831A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HansLoginWithRx-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FAA55FA29F6ED83E904E561 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HansLoginWithRxUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91C3F34BA5B01881BE009CB3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HansLoginWithRx/Pods-HansLoginWithRx-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB69D2FCF6ADD530E2345B45 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HansLoginWithRxTests/Pods-HansLoginWithRxTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C07951C7017DDF1DCA535C2B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HansLoginWithRxTests/Pods-HansLoginWithRxTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F80772C198E0BCD9C9E60E4B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HansLoginWithRxUITests/Pods-HansLoginWithRxUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC31C98120AC6F7C0037C8D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC31C9C620AC70CF0037C8D6 /* LoginViewController.swift in Sources */,
+				EC31C9C920AC70CF0037C8D6 /* RegisterViewController.swift in Sources */,
+				EC31C98B20AC6F7C0037C8D6 /* ViewController.swift in Sources */,
+				EC31C9C520AC70CF0037C8D6 /* Service.swift in Sources */,
+				EC31C9C020AC70CF0037C8D6 /* ContainerViewController.swift in Sources */,
+				EC31C9C420AC70CF0037C8D6 /* RegisterViewModel.swift in Sources */,
+				EC31C9C720AC70CF0037C8D6 /* Hero.swift in Sources */,
+				EC31C9C120AC70CF0037C8D6 /* ContainerViewModel.swift in Sources */,
+				EC31C9C220AC70CF0037C8D6 /* LoginViewModel.swift in Sources */,
+				EC31C98920AC6F7C0037C8D6 /* AppDelegate.swift in Sources */,
+				EC31C9C320AC70CF0037C8D6 /* Protocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC31C99520AC6F7D0037C8D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC31C99E20AC6F7E0037C8D6 /* HansLoginWithRxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC31C9A020AC6F7E0037C8D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC31C9A920AC6F7E0037C8D6 /* HansLoginWithRxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC31C99B20AC6F7D0037C8D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC31C98420AC6F7C0037C8D6 /* HansLoginWithRx */;
+			targetProxy = EC31C99A20AC6F7D0037C8D6 /* PBXContainerItemProxy */;
+		};
+		EC31C9A620AC6F7E0037C8D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC31C98420AC6F7C0037C8D6 /* HansLoginWithRx */;
+			targetProxy = EC31C9A520AC6F7E0037C8D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC31C98C20AC6F7C0037C8D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC31C98D20AC6F7C0037C8D6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC31C99120AC6F7D0037C8D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC31C99220AC6F7D0037C8D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC31C9AB20AC6F7E0037C8D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC31C9AC20AC6F7E0037C8D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC31C9AE20AC6F7E0037C8D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B78B980D9A8375CA38645484 /* Pods-HansLoginWithRx.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K3KX659AR4;
+				INFOPLIST_FILE = HansLoginWithRx/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hw.HansLoginWithRx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC31C9AF20AC6F7E0037C8D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E3BD7361C9B7FF5407DA928 /* Pods-HansLoginWithRx.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K3KX659AR4;
+				INFOPLIST_FILE = HansLoginWithRx/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hw.HansLoginWithRx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC31C9B120AC6F7E0037C8D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37789756EA8EDD4A2CFB3A8C /* Pods-HansLoginWithRxTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K3KX659AR4;
+				INFOPLIST_FILE = HansLoginWithRxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hw.HansLoginWithRxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HansLoginWithRx.app/HansLoginWithRx";
+			};
+			name = Debug;
+		};
+		EC31C9B220AC6F7E0037C8D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D087E90D120F3B3FB9A8523 /* Pods-HansLoginWithRxTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K3KX659AR4;
+				INFOPLIST_FILE = HansLoginWithRxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hw.HansLoginWithRxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HansLoginWithRx.app/HansLoginWithRx";
+			};
+			name = Release;
+		};
+		EC31C9B420AC6F7E0037C8D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E35FD7AFEF90F75C1EBC4C8 /* Pods-HansLoginWithRxUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K3KX659AR4;
+				INFOPLIST_FILE = HansLoginWithRxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hw.HansLoginWithRxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HansLoginWithRx;
+			};
+			name = Debug;
+		};
+		EC31C9B520AC6F7E0037C8D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E1309D94550641BDE87FF83 /* Pods-HansLoginWithRxUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K3KX659AR4;
+				INFOPLIST_FILE = HansLoginWithRxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hw.HansLoginWithRxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HansLoginWithRx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC31C98020AC6F7C0037C8D6 /* Build configuration list for PBXProject "HansLoginWithRx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC31C9AB20AC6F7E0037C8D6 /* Debug */,
+				EC31C9AC20AC6F7E0037C8D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC31C9AD20AC6F7E0037C8D6 /* Build configuration list for PBXNativeTarget "HansLoginWithRx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC31C9AE20AC6F7E0037C8D6 /* Debug */,
+				EC31C9AF20AC6F7E0037C8D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC31C9B020AC6F7E0037C8D6 /* Build configuration list for PBXNativeTarget "HansLoginWithRxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC31C9B120AC6F7E0037C8D6 /* Debug */,
+				EC31C9B220AC6F7E0037C8D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC31C9B320AC6F7E0037C8D6 /* Build configuration list for PBXNativeTarget "HansLoginWithRxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC31C9B420AC6F7E0037C8D6 /* Debug */,
+				EC31C9B520AC6F7E0037C8D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC31C97D20AC6F7C0037C8D6 /* Project object */;
+}

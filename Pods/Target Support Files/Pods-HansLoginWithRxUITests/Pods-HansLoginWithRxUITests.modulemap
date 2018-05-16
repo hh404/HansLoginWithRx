@@ -1,0 +1,6 @@
+framework module Pods_HansLoginWithRxUITests {
+  umbrella header "Pods-HansLoginWithRxUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
